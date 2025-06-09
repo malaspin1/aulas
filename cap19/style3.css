@@ -1,0 +1,19 @@
+#container {
+    height: 96vh;
+    background-color: red;
+    background-image: url(imagens/target001.png);
+    background-size: contain;
+    position: relative; 
+}
+
+#content {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-image: url(imagens/target001.png);
+    background-size: 100% 100%;
+    transform: translate(-50%, -50%);
+}
